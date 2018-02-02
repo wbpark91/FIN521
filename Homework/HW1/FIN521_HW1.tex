@@ -231,10 +231,28 @@
 %	QUESTION 5
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-	\begin{figure}[h]
+	\begin{enumerate}[a.]
+	\item
+	By using NPV formula, we can plot (cost of capital, NPV) on 2-D space. Figure \ref{prob5-fig:npv_plot} represents plot a function of NPV on r of the project. Decreasing curve on figure 1 represent the NPV curve, and the horizontal line represents NPV = 0, and the vertical line represents cost of capital which makes NPV equals to 0. Therefore, the x-point in which the vertical and horizontal line cross is IRR of the project.
+%----------------------------------------------------------------------------------------	
+	%% NPV Plot
+	\begin{figure}[h]		
 	\centering
-		\includegraphics[scale = 0.7]{npv_plot.png}
+		\includegraphics[scale = 0.6]{npv_plot.png} 
 		\caption{Plot of NPV}
-	\end{figure}
+		 \label{prob5-fig:npv_plot}
+	\end{figure} 
+%----------------------------------------------------------------------------------------	
+	\item
+	By some numerical procedures, IRR is calculated as 12.72\%. It is consistent to figure \ref{prob5-fig:npv_plot} since the x-value of the point in which the vertical and horizontal line cross is larger than 0.1.
+%----------------------------------------------------------------------------------------	
+	\item
+	Since IRR of the project is larger than cost of capital, the purchase is attractive based on IRR decision rule.
+%----------------------------------------------------------------------------------------	
+	\item
+	The decision would change if cost of capital of the project becomes larger than 12.72\%. Regarding figure \ref{prob5-fig:npv_plot}, we can find that if cost of capital of the project becomes larger than IRR(12.72\%), NPV of the project would less than 0. It means that it is acceptable to purchase a new cruise ship unless cost of capital of this project becomes greater than 12.72\%.
+	\end{enumerate}
+%----------------------------------------------------------------------------------------	
+
 \end{homeworkProblem}
 \end{document}

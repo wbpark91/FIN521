@@ -16,9 +16,9 @@ year = np.arange(0, 21)
 def npv(r, cf, year):
     return np.sum(cf / ((1 + r) ** year))
 
-    
 
-rlist = np.arange(0, 0.5, 0.001)
+
+rlist = np.arange(0, 0.1, 0.001)
 
 #%%
 x = sop.root(npv, 0.1, args = (cf, year))
@@ -30,3 +30,6 @@ for r in rlist:
 plt.plot(rlist, result, color = 'k')
 plt.axhline(y = 0, color = 'r')
 plt.axvline(x = x.x, color = 'g')
+plt.xlabel('Cost of Capital')
+plt.ylabel('NPV')
+plt.show()
