@@ -299,7 +299,24 @@
 %	QUESTION 6
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-
+	Regarding event study, NPV of a project can be calculated by market capitalization before an announcement of project times rate of return after the announcement. In order to implement event study, data for market price of share and market capitalization of Bayer and Monsanto was collected. Since it is assumed that it would take about two days for disclosure information to be reflected, price data is collected from Sep 14 to Sep 16. Since the changes of return could be due to changes of whole markets, in order to eliminate that effects, returns of share price is adjusted by subtracting market index(S\&P 500) return.
+%----------------------------------------------------------------------------------------
+	%% Tables of NPV
+	\begin{table}[ht]
+	\centering
+	\begin{tabular}{@{}ccccc@{}}
+	\toprule
+	Date                &                       & Bayer     & Monsanto  & S\&P500 \\ \midrule
+	2016.9.14           & Closing Price         & 103.4324  & 103.725   & 2125.77 \\
+	2016.9.16           & Closing Price         & 98.9536   & 100.51    & 2139.16 \\	\midrule
+	\multicolumn{2}{c}{Return}                  & -4.330\%  & -3.100\%  & 0.630\% \\
+	\multicolumn{2}{c}{Adjusted Return}         & -4.960\%  & -3.729\%  &         \\		\midrule
+	\multicolumn{2}{c}{Market Cap at 2016.9.14} & 87656.468 & 46715.613 &         \\	\midrule
+	\multicolumn{2}{c}{NPV}                     & -4347.814 & -1742.227 &         \\ \bottomrule
+	\end{tabular}
+	\caption{NPV of M\&A decision}
+	\label{tab:prob6-npv}
+	\end{table}
 \end{homeworkProblem}
 %----------------------------------------------------------------------------------------	
 %----------------------------------------------------------------------------------------
