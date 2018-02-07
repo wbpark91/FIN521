@@ -199,15 +199,15 @@
 \begin{homeworkProblem}
 \begin{enumerate}[a.]
 	\item		%% CASH
-	According to the balance sheet of Starbucks for fiscal year 2013, the firm's cash and cash equivalent worth \$2,575.7m, and short-term investments worth \$658.1m. (How much of this amount is abroad? How was this money invested?)
+	According to the balance sheet of Starbucks for fiscal year 2013, the firm's cash and cash equivalent worth \$2,575.7m, and short-term investments worth \$658.1m. From the 10-K, approximately \$994.4 millions of cash was held in foreign subsidiaries. The majority of short-term investments consisted of US Tresury, commercial paper, corporate bonds, and US Agency securities. Also it is included in certificates of deposit placed through an account registry service.
 	\item		%% DEBT
-	From the balance sheet of Starbucks, the firm has \$549.6m amount of debts.
+	From the balance sheet of Starbucks, the firm has \$1,299.4m amount of debts.
 	\item		%% REARRANGE BALANCE SHEET
+	When rearranging balance sheets, liabilities that is a part of operating business is moved to left side, and assets which is non-operating part(such as cash) is moved to right side. Table \ref{tab:prob3-rearrangedsheet} shows the rearranged balance sheet using the rule above.
 %----------------------------------------------------------------------------------------
 	%% Rearranged Balance Sheet
-	\begin{table}[h]
+	\begin{table}[ht]
 	\centering
-	\label{my-label}
 	\begin{tabular}{@{}llll@{}}
 	\toprule
 	\multicolumn{2}{c}{Operating Accounts}                 & \multicolumn{2}{c}{Financial Accounts}   \\ \midrule
@@ -234,10 +234,13 @@
 	\end{table}
 %----------------------------------------------------------------------------------------
 	\item		%% ENTERPRISE VALUE
+	Enterprise value is calculated as (\textit{Market capitalization + Debt - Excess cash}). It represents market value of the underlying business operations. Since Stabucks' price per share at Sep 29, 2013 is \$55.82, and from 10-K, 749.3 million shares of common stock is outstanding. Therefore, market capitalization of Starbucks is $55.82 \times 749.3 = 41,825.926$ million dollars. From the balance sheet, the amount of cash is 2,575.7 million dollars, and the amount of debt is 1,299.4 million dollars. Therefore, enterprise value of Starbucks is $41,825.926 + 1,299.4 - 2,575.7 = 40,549.626$ million dollars. 
 	\item		%% DILUTED EPS
+	From the consolidated statements of earnings, diluted EPS is equal to 0.01(unit: million dollars). The number of shares the diluted EPS based on is 762.3 million shares. The reason why the number of diluted shares is different to common stocks is diluted shares contain all convertible securities such as convertible bonds and stock options. Since the denominator is slightly greater than denominator of non-diluted EPS, diluted EPS is slightly less than EPS.
 	\item		%% MAIN REASON STARBUCKS MADE LESS PROFIT
+	From the income statement, other accounts seems relatively stable, but a huge amount of litigation charge came up. According to Note 15 in 10-K, Kraft commenced a federal court action against Starbucks for termination of distribution arrangement. The arbitrator ordered Starbucks to pay \$2,227.5 million plus prejudgment interest and attorneys' fees. It was reflected on income statement, so Starbucks made less profit than 2012.
 	\item		%% P/E RATIO
-	P/E ratio is calculated by (\textit{Market capitalization} / \textit{Net income}) or (\textit{Share price} / \textit{EPS}). It can describe whether value of firm is overvalued or undervalued. Since 
+	P/E ratio is calculated by (\textit{Market capitalization} / \textit{Net income}) or (\textit{Share price} / \textit{EPS}). It can describe whether value of firm is overvalued or undervalued. P/E ratios are commonly used for comparing value of firms in similar industries. Therefore, it is useful to apply P/E ratio to compare Starbucks' value between other's.
 	\end{enumerate}
 \end{homeworkProblem}
 %----------------------------------------------------------------------------------------	
@@ -299,7 +302,7 @@
 %	QUESTION 6
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-	Regarding event study, NPV of a project can be calculated by market capitalization before an announcement of project times rate of return after the announcement. In order to implement event study, data for market price of share and market capitalization of Bayer and Monsanto was collected. Since it is assumed that it would take about two days for disclosure information to be reflected, price data is collected from Sep 14 to Sep 16. Since the changes of return could be due to changes of whole markets, in order to eliminate that effects, returns of share price is adjusted by subtracting market index(S\&P 500) return.
+	Regarding event study, NPV of a project can be calculated by market capitalization before an announcement of project times rate of return after the announcement. In order to implement event study, data for market price of share and market capitalization of Bayer and Monsanto was collected. Since it is assumed that it would take about two days for disclosure information to be reflected, price data is collected from Sep 14 to Sep 16. Since the changes of return could be due to changes of whole markets, in order to eliminate that effects, returns of share price is adjusted by subtracting market index(S\&P 500) return. NPVs of Bayer and Monsanto are calculated as -4347.814 million dollars and -1742.227 million dollars, respectively. More details on calculation of NPVs are on table \ref{tab:prob6-npv}.
 %----------------------------------------------------------------------------------------
 	%% Tables of NPV
 	\begin{table}[ht]
@@ -311,12 +314,14 @@
 	2016.9.16           & Closing Price         & 98.9536   & 100.51    & 2139.16 \\	\midrule
 	\multicolumn{2}{c}{Return}                  & -4.330\%  & -3.100\%  & 0.630\% \\
 	\multicolumn{2}{c}{Adjusted Return}         & -4.960\%  & -3.729\%  &         \\		\midrule
-	\multicolumn{2}{c}{Market Cap at 2016.9.14} & 87656.468 & 46715.613 &         \\	\midrule
+	\multicolumn{2}{c}{Market Cap at 2016.9.14 (million dollars)} & 87656.468 & 46715.613 &         \\	\midrule
 	\multicolumn{2}{c}{NPV}                     & -4347.814 & -1742.227 &         \\ \bottomrule
 	\end{tabular}
 	\caption{NPV of M\&A decision}
 	\label{tab:prob6-npv}
 	\end{table}
+%----------------------------------------------------------------------------------------	
+	There are some caveats in the analysis. Although I calculated NPV of Bayer and Monsanto by using event study method, the NPV calculated does not guarantee that it is the \textit{real} NPV of M\&A decision. If there is some other information disclosed during the event study period, the NPV obtained above becomes wrong information since other information might affect return of stock price. Of course, such disadvantage can be overcome by choosing short enough period for the analysis. However, if market is not efficient enough, short period makes NPV of firm's decision inaccurate since it takes a certain amount of time to information be reflected. Therefore, because there is a trade-off between reflection of information and accuracy of effect, choosing appropriate period is important.
 \end{homeworkProblem}
 %----------------------------------------------------------------------------------------	
 %----------------------------------------------------------------------------------------
@@ -347,6 +352,11 @@ Free Cash Flow                  & 40    \\ \bottomrule
 %	QUESTION 8
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-
+	\begin{enumerate}[a.]
+	\item
+	The asset beta is calculated by $\beta_a = w_d \beta_d + w_e \beta_e$, where $\beta_a, \beta_d$, and $\beta_e$ denotes asset beta, debt beta and equity beta, respectively, and $w_d$ and $w_e$ denotes ratio of debt and equity to total amount of debt and equity, respectively. Since the stock price of Thurbinar is \$20 per share and there are 15 million shares outstanding, the market capitalization of firm is $20 \times 15 = 300$ million dollars. Assuming the firm has no cash, the ratio of debt and equity is calculated as $w_d = \frac{100}{300 + 100} = 0.25$ and $w_e = \frac{300}{300 + 100} = 0.75$. Since $\beta_d = 0$ and $\beta_e = 1$, the asset beta of the firm is $\beta_a = 0.25 \times 0 + 1 \times 0.75 = 0.75$.
+	\item
+	By CAPM, $r_e = r_f + \beta_e(r_{mkt} - r_f) = 0.04 + 1 \times 0.05 = 0.09$, and since debt beta of the firm is 0, $r_d$ is equal to risk-free rate, 0.04. Since $w_e = 0.75$ and $w_d = 0.25$, $r_a = w_e r_e + w_d r_d = 0.75 \times 0.09 + 0.25 \times 0.04 = 0.0775 = 7.75\%$.
+	\end{enumerate}
 \end{homeworkProblem}
 \end{document}
