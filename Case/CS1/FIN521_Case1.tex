@@ -1,0 +1,54 @@
+\documentclass{article}
+
+%% PACKAGES
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\author{Wanbae Park}
+
+\date{}
+\title{\textbf{Advanced Corporate Finance}}
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.5} 
+
+\begin{document}
+
+\maketitle
+%-----------------------
+\begin{enumerate}
+	\item
+	Hansson estimated that HPL has a little more then 28\% of wholesale sales of private label products. Since private label products have less costs than ordinary products, it is possible to provide lower price than others, which makes them attractive for customers. In this respect, private label products have profitability for Hansson. However, considering that personal care market is stable, expansion of private label products may not affects firm's potential growth because it might just cause cannibalization.
+	%% Problem 2: Alternative approach???
+	\item
+	In order to measure how large the expansion relative to current operation, it is reasonable to compare between enterprise value before expansion and after expansion. According to HPL's assumptions(Exhibit 7), the estimated D/V after expansion is 20.9\%, since estimated value of debt after expansion is given, we can implicitly calculate enterprise value of HPL after expansion, which is calculated as \textbf{514.8} ??? 
+	\item
+	See excel sheet.
+	\item
+	The current interest coverage of the firm is \textit{EBIT} / \textit{Interest Expense} = 67.4 / 3.3 = 20.42. Regarding the current net debt is equal to 49.8(million dollars), by calculating implicitly, interest rate of the firm is calculated as approximately 6.6\%. Assume that this interest rate will be constant. By Exhibit 7, it is assumed that debt will be increased to 107.6. Therefore, the interest expense at 2009 will be $107.6 \times 0.066 = 7.101$. Assuming the EBIT from operation except the expansion is at current level, interest coverage will be decreased to $\frac{67.4 + 47.23}{7.101} = 16.14$. Although the interest coverage decreased, since it still remains high level enough, the investment decision is not aggressive.
+	\item
+	The following table shows recalculated cost of capital. Costs of capital were calculated using CAPM, and debt beta was calculated using linear interpolation between 0 and 1. Equity beta was calculated using the relationship $\beta_e = \beta_a + \frac{D}{E}(\beta_a - \beta_d)$. WACC is calculated using the equation $r_{wacc} = \frac{E}{D + E} r_e + \frac{D}{D + E} r_d \times (1 - \text{tax rate})$. All parameters used are given in HPL's assumption. 
+	\begin{table}[ht]
+	\tiny
+	\centering
+	\begin{tabular}{@{}ccccccccc@{}}
+	\toprule
+	\textit{Debt / Value} & \textit{Debt / Equity} & \textit{Asset Beta} & \textit{Unlevered Cost of Capital} & \textit{Debt Beta} & \textit{Equity Beta} & \textit{Cost of Debt} & \textit{Cost of Equity} & \textit{WACC} \\ \midrule
+	0.0\%                 & 0.0\%                  & 1.18                & 9.65\%                             & 0                  & 1.18                 & 3.75\%                & 9.65\%                  & 9.6500\%      \\
+	5.0\%                 & 5.3\%                  & 1.18                & 9.65\%                             & 0.02               & 1.24                 & 3.85\%                & 9.96\%                  & 9.5730\%      \\
+	10.0\%                & 11.1\%                 & 1.18                & 9.65\%                             & 0.04               & 1.31                 & 3.95\%                & 10.28\%                 & 9.4920\%      \\
+	15.0\%                & 17.6\%                 & 1.18                & 9.65\%                             & 0.06               & 1.38                 & 4.05\%                & 10.64\%                 & 9.4070\%      \\
+	20.0\%                & 25.0\%                 & 1.18                & 9.65\%                             & 0.08               & 1.46                 & 4.15\%                & 11.03\%                 & 9.3180\%      \\
+	25.0\%                & 33.3\%                 & 1.18                & 9.65\%                             & 0.1                & 1.54                 & 4.25\%                & 11.45\%                 & 9.2250\%      \\ \bottomrule
+	\end{tabular}
+	\end{table}
+	\end{enumerate}
+	\end{document}
