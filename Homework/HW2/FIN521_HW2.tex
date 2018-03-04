@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Structured General Purpose Assignment
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Ted Pavlic (http://www.tedpavlic.com)
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing assignment content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage{graphicx} % Required to insert images
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in 
+
+\linespread{1.5} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName} % Top left header
+\chead{\hmwkClass\ (\hmwkTitle)} % Top center header
+%%\rhead{\firstxmark} 
+\rhead{} % Top right header
+\lfoot{\lastxmark} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{Page\ \thepage\ of\ \pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT STRUCTURE COMMANDS
+%	Skip this unless you know what you're doing
+%----------------------------------------------------------------------------------------
+
+% Header and footer for when a page split occurs within a problem environment
+\newcommand{\enterProblemHeader}[1]{
+\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+}
+
+% Header and footer for when a page split occurs between problem environments
+\newcommand{\exitProblemHeader}[1]{
+\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1}{}\nobreak
+}
+
+\setcounter{secnumdepth}{0} % Removes default section numbers
+\newcounter{homeworkProblemCounter} % Creates a counter to keep track of the number of problems
+
+\newcommand{\homeworkProblemName}{}
+\newenvironment{homeworkProblem}[1][Question \arabic{homeworkProblemCounter}]{ % Makes a new environment called homeworkProblem which takes 1 argument (custom name) but the default is "Question #"
+\stepcounter{homeworkProblemCounter} % Increase counter for number of problems
+\renewcommand{\homeworkProblemName}{#1} % Assign \homeworkProblemName the name of the problem
+\section{\homeworkProblemName} % Make a section in the document with the custom problem count
+\enterProblemHeader{\homeworkProblemName} % Header and footer within the environment
+}{
+\exitProblemHeader{\homeworkProblemName} % Header and footer after the environment
+}
+
+\newcommand{\problemAnswer}[1]{ % Defines the problem answer command with the content as the only argument
+\noindent\framebox[\columnwidth][c]{\begin{minipage}{0.98\columnwidth}#1\end{minipage}} % Makes the box around the problem answer and puts the content inside
+}
+
+\newcommand{\homeworkSectionName}{}
+\newenvironment{homeworkSection}[1]{ % New environment for sections within homework problems, takes 1 argument - the name of the section
+\renewcommand{\homeworkSectionName}{#1} % Assign \homeworkSectionName to the name of the section from the environment argument
+\subsection{\homeworkSectionName} % Make a subsection with the custom name of the subsection
+\enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]} % Header and footer within the environment
+}{
+\enterProblemHeader{\homeworkProblemName} % Header and footer after the environment
+}
+
+%----------------------------------------------------------------------------------------
+%	EXPECTATION AND VARIANCE OPERATOR
+%----------------------------------------------------------------------------------------
+ \newcommand{\E}{\mathrm{E}} 
+ \newcommand{\Var}{\mathrm{Var}}
+ \newcommand{\Cov}{\mathrm{Cov}}
+ \newcommand{\Corr}{\mathrm{Corr}}
+ 
+%----------------------------------------------------------------------------------------
+%	NAME AND CLASS SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\hmwkTitle}{Problem Set\ \#2} % Assignment title
+\newcommand{\hmwkDueDate}{Wednesday,\ March\ 7,\ 2018} % Due date
+\newcommand{\hmwkClass}{FIN\ 521} % Course/class
+\newcommand{\hmwkClassTime}{2:00pm} % Class/lecture time
+\newcommand{\hmwkAuthorName}{Wanbae Park} % Your name
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{
+\vspace{2in}
+\textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+\normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate}\\
+\vspace{3in}
+}
+
+\author{\textbf{\hmwkAuthorName}}
+\date{} % Insert date here if you want it to appear below your name
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\setcounter{tocdepth}{1} % Uncomment this line if you don't want subsections listed in the ToC
+
+%%\newpage
+%%\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 1
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 2
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+	Since $r_a = \frac{D}{D+E}r_d + \frac{E}{D+E}r_e$, $r_e = r_a + \frac{D}{E}(r_a - r_d)$. Therefore, in this case, $r_e =  0.09 + \frac{0.25}{0.75}(0.09 - 0.06) = 10\%$. Using formula $r_{wacc} = \frac{E}{D+E}r_e + \frac{D}{D+E}r_d(1 - \text{tax rate})$, we can find WACC for a new airline business as follows.
+	\begin{equation*}
+		r_{wacc} = 0.75 \times 0.1 + 0.25 \times 0.06 \times (1 - 0.4) = 8.4\%
+	\end{equation*}
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 3
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+	Since price of a bond is expected payoff discounted by cost of debt, and an yield of a bond is a discount rate for promised payoffs, price and yield of the bond is calculated as follows.
+	\begin{equation*}
+	\begin{aligned}
+		Price = \frac{0.8 \times 1  + 0.2 \times 0.5}{(1.06)^5} = 0.60528 ~ \text{per~dollar}	\\
+		\frac{1}{(1+yield)^5} = 0.60528 \Rightarrow yield = 0.10563
+	\end{aligned}
+	\end{equation*}
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 4
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+\begin{enumerate}[a)]
+	\item		%% a)
+	Bond issuers voluntarily choose covenants because they can reduce cost of debts if they choose them. They might have to pay less coupon or can issue bond with lower price if they include covenants in their bonds.
+	\item		%% b)
+	Because convertible bonds are like an option to investors, price of bonds is higher than bond without conversion feature. In other words, convertible bonds have lower yield because investors can increase their return by exercising conversion feature when stock price is high and doing nothing when stock price is low.
+\end{enumerate}
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 5
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+\begin{enumerate}[a.]
+	\item		%% a.
+	By dividend discount model, stock price is calculated as $P_0 = \frac{Div_1}{(1 + r_e)} + \frac{Div_2}{(1 + r_e)^2} + \dots$. Since it is assumed that Summit's dividend grows by 3\% per year, estimated price per share is calculated as follows.
+	\begin{equation*}
+		P_0 = \frac{1.50 \times 1.03}{1.11} + \frac{1.50 \times (1.03)^2}{(1.11)^2} \dots = \frac{1.5 \times 1.03}{1.11 - 1.03} = 19.31250
+	\end{equation*}
+	\item		%% b.
+	By using the equation $P_0 = \frac{Div_0 \times g}{r - g}$, the implied discount rate of dividend is calculated as follows.
+	\begin{equation*}
+		25 = \frac{1.5 \times 1.03}{r_e - 1.03} \Rightarrow r_e = 9.18\%.
+	\end{equation*}
+\end{enumerate}
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 6
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+\begin{enumerate}[a.]
+	\item		%% a.
+	Since enterprise value is a present value of free cash flow, we can estimate enterprise value of Heavy Metal using the following equation.
+	\begin{equation*}
+		EV = \frac{FCF_1}{1 + r_{wacc}} + \frac{FCF_2}{(1 + r_{wacc})^2} + \dots \frac{FCF_n}{(1 + r_{wacc})^n} + \frac{T_n}{(1 + r_{wacc})^n} ~~ T_n: \text{terminal value}
+	\end{equation*}
+	Since it is expected that free cash flows are expected to grow at 4\% per year after 5 years and $r_{wacc}$ is 14\%, enterprise value can be estimated as follows.
+	\begin{equation*}
+	\begin{aligned}
+		&T_5 = \frac{82 \times 1.04}{1.14} + \frac{82 \times (1.04)^2}{(1.14)^2} + \dots = \frac{82 \times 1.04}{1.14 -1.04} = 852.8	\\
+		&EV = \frac{53}{1.14} + \frac{68}{(1.14)^2} + \frac{78}{(1.14)^3} + \frac{75}{(1.14)^4} + \frac{82}{(1.14)^5} + \frac{852.8}{(1.14)^5} = 681.37
+	\end{aligned}
+	\end{equation*} 
+	\item		%% b.
+	Since Equity = EV - Net debt, and there is no excess cash, share price of Heavy Metal corporation is calculated as $(681.37 - 300) / 40 = 9.53$.
+\end{enumerate}
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 7
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+\begin{enumerate}[a.]
+	\item		%% a.
+	First, calculate Price / EPS for PepsiCo. It is calculated as 52.66 / 3.20 = 16.46. Then, apply this ratio using Coca-Cola Company's EPS, then price of Coca-Cola Company's share is calculated as $16.46 \times 2.49 = 40.98$.
+	\item 	%% b.
+	In order to use this method, we need to assume that the effect of earning for price is similar for both companies.
+\end{enumerate}
+\end{homeworkProblem}
+\end{document}
