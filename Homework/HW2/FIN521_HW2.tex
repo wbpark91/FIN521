@@ -30,6 +30,7 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{booktabs}
+\usepackage{multirow}
 
 % Margins
 \topmargin=-0.45in
@@ -150,7 +151,35 @@
 %	QUESTION 1
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-
+\begin{enumerate}[a.]
+	\item		%% a.
+	By taking average on annualized monthly return of Apple, it was calculated as 2.22\%.
+	\item		%% b.
+	In order to obtain beta of Apple, regression model was fitted. Data used for analysis is from 1981. Table \ref{tab:prob1-regression result} shows the regression result. Standard errors are represented in parentheses. Cost of equity was calculated using the average value of data.
+%----------------------------------------------------------------------------------------
+	%% REGRESSION RESULT	
+	\begin{table}[ht]
+	\centering
+	\begin{tabular}{@{}cccccccc@{}}
+	\toprule
+                                          & Intercept & $\beta_{MKT}$ & $\beta_{SMB}$ & $\beta_{HML}$ & $\beta_{RMW}$ & $\beta{CMA}$ & Cost of Equity        \\ \midrule
+	\multirow{2}{*}{\textit{CAPM}}            & 0.96      & 1.43          &               &               &               &              & \multirow{2}{*}{2.11} \\
+                                          & (0.57)    & (0.13)        &               &               &               &              &                       \\
+	\multirow{2}{*}{\textit{FF3}}             & 1.39      & 1.22          & 0.28          & -0.96         &               &              & \multirow{2}{*}{2.16} \\
+                                          & (0.56)    & (0.13)        & (0.19)        & (0.19)        &               &              &                       \\
+	\multirow{2}{*}{\textit{FF5}}             & 1.63      & 1.09          & 0.39          & -0.40         & 0.15          & -1.35        & \multirow{2}{*}{2.05} \\
+                                          & (0.57)    & (0.14)        & (0.21)        & (0.26)        & (0.26)        & (0.39)       &                       \\
+	\multirow{2}{*}{\textit{FF5(After 2000)}} & 2.30      & 1.27          & 0.40          & -0.41         & 0.31          & -1.61        & \multirow{2}{*}{2.61} \\
+                                          & (0.69)    & (0.18)        & (0.25)        & (0.29)        & (0.31)        & (0.41)       &                       \\ \bottomrule
+	\end{tabular}
+	\caption{Regression result}
+	\label{tab:prob1-regression result}
+	\end{table}
+%----------------------------------------------------------------------------------------
+	Depending on each model, beta of Apple is different since each model defines systematic risk differently. For example, CAPM assumes market risk is the only systematic risk of a firm, but FF3 defines systematic risk as market risk and size and value effect. There is no true answer which to choose for calculating cost of capital. However, one can suggest some criteria for choosing model. For example, one can suggest to choose model which has higher adjusted $R^2$ since it gives best explanatory power for Apple's risk premium. Other can suggest to choose model which is simple such as CAPM because if model is complicated, estimation will be harder, therefore the information obtained from model will probably not reliable. In this case, Fama-French 3-factor model makes close return as actual average return. However, that does not mean we should use that model.
+	\item		%% c.
+	Since beta obtained from question b is an equity beta, in order to calculate asset beta and asset cost of capital, we need to use the formula $\beta_a = \frac{D}{V}\beta_d + \frac{E}{V}\beta_e$. Since we already know $\beta_e = 1.43$ from CAPM, if we get information about debt beta and capital structure of Apple, it is possible to calculate asset beta. However, in Fama-French 3-factor case, there are 3 betas which affect cost of equity which makes the problem difficult. I suggest the formula $\beta_a = \frac{D}{V}\beta_d + \frac{E}{V}(\beta_{MKT} + \beta_{SMB} + \beta_{HML})$ because the three factors affects only on equity, and asset cost of capital is calculated as $r_a = \frac{D}{V}r_d + \frac{E}{V}r_e$, where $r_e$ is calculated using Fama-French 3-factor model.
+\end{enumerate}
 \end{homeworkProblem}
 %----------------------------------------------------------------------------------------
 %	QUESTION 2
@@ -231,6 +260,60 @@
 	First, calculate Price / EPS for PepsiCo. It is calculated as 52.66 / 3.20 = 16.46. Then, apply this ratio using Coca-Cola Company's EPS, then price of Coca-Cola Company's share is calculated as $16.46 \times 2.49 = 40.98$.
 	\item 	%% b.
 	In order to use this method, we need to assume that the effect of earning for price is similar for both companies.
+\end{enumerate}
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 8
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+\begin{enumerate}[a.]
+	\item		%% a.
+	Using the formula $r_e = r_a + \frac{D}{E}(r_a - r_d)$, we can calculate expected return of equity after transaction as follows.
+	\begin{equation*}
+		r_e = 12\% + 0.5 \times (12\% - 6\%) = 15\%
+	\end{equation*}
+	\item		%% b.
+	By using the same formula as question 8-a, the expected return of equity is calculated as follows.
+	\begin{equation*}
+		r_e = 12\% + 1.5 \times (12\% - 8\%) = 18\%
+	\end{equation*}
+	\item		%% c.
+	Of course, from the perspective of expected return, it is better to construct capital structure that makes higher expected return. However, if we consider both risk and return, it is not always better to choose a strategy which makes higher expected return because it also increases risk. In fact, under the perfect market, firm's cost of capital is independent to capital structure of the firm. Since cost of debt is lower than cost of equity, it seems that higher leverage makes lower cost of capital, but it is not true since it also increases cost of equity.
+\end{enumerate}
+\end{homeworkProblem}
+%----------------------------------------------------------------------------------------
+%	QUESTION 9
+%----------------------------------------------------------------------------------------
+\begin{homeworkProblem}
+\begin{enumerate}[a.]
+	\item		%% a.
+	If the firm is unlevered, current market value of the firm will be equal to expected market value discounted at unlevered cost of capital. Therefore, the current market value of the firm is as follows.
+	\begin{equation*}
+	\begin{aligned}
+		&Expected~value = 0.8 \times 50 + 0.2 \times 20 = 44	\\
+		&Current~market~value = \frac{44}{1.1} = 40
+	\end{aligned}
+	\end{equation*}
+	\item 	%% b.
+	According to MM1, the total value of a firm is not affected by capital structure. Therefore, the value of firm is equal to the value where the firm is unlevered. Since the face of value of the debt is 20, which can be paid if the market value is in the worst case after one year, cost of debt would be equal to risk-free rate. Consequently, value of equity is equal to 40 - 20 / 1.05 = 20.95.
+	\item		%% c.
+	\begin{enumerate}[i.]
+		\item
+		\textit{(Without leverage)} If the firm has no leverage, expected return of equity is will be equal to unlevered cost of capital. Therefore, expected return of equity is equal to 10\%.
+		\item
+		\textit{(With leverage)} Since the face value of debt is equal to 20, expected value of equity is calculated as follows.
+		\begin{equation*}
+			Expected~value~of~equity = 0.8 \times (50 - 20) + 0.2 \times (20 - 20) = 24
+		\end{equation*}
+		From b, since the current value of equity is equal to 20.95, expected return of equity is calculated as $(24 - 20.95) / 20.95 = 14.55\%$.
+	\end{enumerate}
+	\item		%% d.
+	\begin{enumerate}[i.]
+		\item
+		\textit{(Without leverage)} The lowest realized return occurs when the market value plunges to 20 million after one year. Without leverage, since the value of equity is equal to 40, realized return is calculated as $(20 - 40) / 40 = 50\%$.
+		\item
+		\textit{(With leverage)} In this case, if the market value goes down, since all of firm's value has to be distributed to creditors, there is no rest of value which goes to shareholders, therefore, realized return will be -100\%.
+	\end{enumerate}
 \end{enumerate}
 \end{homeworkProblem}
 \end{document}
