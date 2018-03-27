@@ -151,10 +151,39 @@
 %	PART 1
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
+    I chose PEPSICO INC. which is famous multinational food, snack, and
+    beverage corporation. Most of data used in evaluating share price is come
+    from CapitalIQ, and if data which is necessary to evaluate stock price
+    is unobserved, it is estimated by myself.
     \begin{enumerate}[a)]
         \item   %% question a)
+        I collected analyst's forecast of sales revenue of PepsiCo over next
+        seven years. Table \ref{tab:part1-expectedcf} shows the estimated
+        revenue. Estimated revenue grows moderately.
         \item   %% question b)
+        Analyst's forecast data of company's EBITDA from FY2018 to FY2022
+        is collected from CapitalIQ, and since the average EBITDA growth is
+        about 6\% per year, I assumed that EBITDA will grow at 6\% over the
+        last 2 years. Table \ref{tab:part1-expectedcf} shows the estimated
+        EBITDA. Using this data, EBITDA/Sales margin was calculated.
+        Table \ref{tab:part1-margins} shows estimated EBITDA/Sales margin.
         \item   %% question c)
+        In order to estimate free cash flow, estimation for EBIT is needed first.
+        As mentioned above, EBITDA was estimated by using analyst's forecast
+        and by estimation of growth. Depreciation and amortization is estimated
+        by estimating depreciation margin which is (Depreciation / Sales Revenue).
+        Depreciation margin is estimated by averaging past 3 years' margin, and
+        is assumed constant over 7 years. The margin was calculatd as 3.44\%.
+        Changes in net working capital is estimated by estimating days in
+        receivables, inventory, payables and others. They were estimated by
+        averaging past 3 years' data and were assumed to be constant over 7 years.
+        Table \ref{tab:part1-estimated days} shows estimated days of each account.
+        Capital expenditure is estimated by estimating CapEx margin, which was
+        calculated by averaging past 3 year's data. From the procedure, free
+        cash flow was calculated as Table \ref{tab:part1-expectedcf}.
+        \input{cashflow.tex}
+        \input{margin.tex}
+        \input{days.tex}
         \item   %% question d)
         \item   %% question e)
         \item   %% question f)
