@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  27 MAR 2018 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  27 MAR 2018 17:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -218,19 +218,24 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./cashflow.tex) (./margin.tex) (./days.tex) [2]
+(./sensitivity.tex
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+) [3] 
 AED: lastpage setting LastPage
-[3] [4] (./FIN521_MIL.aux) ) 
+[4] (./FIN521_MIL.aux) ) 
 Here is how much of TeX's memory you used:
- 2600 strings out of 492990
- 35212 string characters out of 6132637
- 204604 words of memory out of 5000000
- 6115 multiletter control sequences out of 15000+600000
+ 2604 strings out of 492990
+ 35287 string characters out of 6132637
+ 205612 words of memory out of 5000000
+ 6116 multiletter control sequences out of 15000+600000
  9321 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,43p,277b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on FIN521_MIL.pdf (4 pages, 67895 bytes).
+Output written on FIN521_MIL.pdf (4 pages, 69113 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

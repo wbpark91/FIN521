@@ -102,6 +102,8 @@ INPUT margin.tex
 INPUT margin.tex
 INPUT days.tex
 INPUT days.tex
+INPUT sensitivity.tex
+INPUT sensitivity.tex
 INPUT FIN521_MIL.aux
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
