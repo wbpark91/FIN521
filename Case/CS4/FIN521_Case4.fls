@@ -44,6 +44,10 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT FIN521_Case4.aux
 INPUT FIN521_Case4.aux
 OUTPUT FIN521_Case4.aux
@@ -73,7 +77,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
@@ -108,7 +111,14 @@ INPUT after_debt_tax.tex
 INPUT after_debt_tax.tex
 INPUT after_repurchase_tax.tex
 INPUT after_repurchase_tax.tex
+INPUT q4-bs.tex
+INPUT q4-bs.tex
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT q4-is.tex
+INPUT q4-is.tex
 INPUT FIN521_Case4.aux
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
@@ -116,3 +126,4 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
