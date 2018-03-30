@@ -104,6 +104,10 @@ INPUT after_repurchase_perfect.tex
 INPUT after_repurchase_perfect.tex
 INPUT after_announcement_tax.tex
 INPUT after_announcement_tax.tex
+INPUT after_debt_tax.tex
+INPUT after_debt_tax.tex
+INPUT after_repurchase_tax.tex
+INPUT after_repurchase_tax.tex
 INPUT FIN521_Case4.aux
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
