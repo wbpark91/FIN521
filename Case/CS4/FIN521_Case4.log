@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  30 MAR 2018 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  30 MAR 2018 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,19 +229,19 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./current_balance.tex) (./after_debt_perfect.tex)
-(./after_repurchase_perfect.tex) [2] (./after_announcement_tax.tex) (./after_debt_tax.tex) (./after_repurchase_tax.tex) [3] (./q4-bs.tex) (./q4-is.tex) (./q4-eps_roe_mtb.tex) (./q4-intcov_dtoe.tex) [4] 
+(./after_repurchase_perfect.tex) [2] (./after_announcement_tax.tex) (./after_debt_tax.tex) (./after_repurchase_tax.tex) [3] (./q4-bs.tex) (./q4-is.tex) (./q4-eps_roe_mtb.tex) (./q4-intcov_dtoe.tex) [4] (./q4-totalcf.tex) 
 AED: lastpage setting LastPage
 [5] [6] [7] [8] (./FIN521_Case4.aux) ) 
 Here is how much of TeX's memory you used:
- 2718 strings out of 492990
- 36758 string characters out of 6132637
- 207562 words of memory out of 5000000
- 6203 multiletter control sequences out of 15000+600000
+ 2722 strings out of 492990
+ 36814 string characters out of 6132637
+ 207571 words of memory out of 5000000
+ 6204 multiletter control sequences out of 15000+600000
  10700 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,43p,279b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FIN521_Case4.pdf (8 pages, 124937 bytes).
+Output written on FIN521_Case4.pdf (8 pages, 125598 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

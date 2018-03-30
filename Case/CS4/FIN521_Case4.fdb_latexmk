@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1522447722 "FIN521_Case4.tex" "FIN521_Case4.pdf" "FIN521_Case4" 1522447722
+["pdflatex"] 1522448303 "FIN521_Case4.tex" "FIN521_Case4.pdf" "FIN521_Case4" 1522448304
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -68,8 +68,8 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1501873392 2377259 0b502a1d0ea6311856ea52c789c6d193 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1501873427 4130343 a17768e1edfe09132e910d781ca3d284 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "FIN521_Case4.aux" 1522447722 2048 3b29fdd9e45dcf13af8e9201dab13999 ""
-  "FIN521_Case4.tex" 1522447712 15625 17ebb26c96ec5463d990ef01b1763f97 ""
+  "FIN521_Case4.aux" 1522448304 2175 1a1077a1cbc83b11faaede5b6790001a ""
+  "FIN521_Case4.tex" 1522448303 16349 6131d82106874de8f8fb5489354b0c39 ""
   "after_announcement_tax.tex" 1522442040 416 0108180afa5ef58b6bcd29b164dc83f9 ""
   "after_debt_perfect.tex" 1522440216 404 bc0a8aa9cbe5cae5a920eb2cecda512d ""
   "after_debt_tax.tex" 1522442635 414 4a0be681d53398728eb5411a2a444654 ""
@@ -80,7 +80,8 @@
   "q4-eps_roe_mtb.tex" 1522446831 960 2ecb939379a6970356547e7d0f5ada9d ""
   "q4-intcov_dtoe.tex" 1522447428 711 b1fa06936841f7e89957dbaf96086228 ""
   "q4-is.tex" 1522445633 1417 4da0bd9fdf1184f6ff981789198874b4 ""
+  "q4-totalcf.tex" 1522448082 385 919daab065e485a8d9307cea6b5cf15a ""
   (generated)
-  "FIN521_Case4.log"
   "FIN521_Case4.pdf"
   "FIN521_Case4.aux"
+  "FIN521_Case4.log"

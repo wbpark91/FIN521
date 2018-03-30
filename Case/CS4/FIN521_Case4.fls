@@ -123,6 +123,8 @@ INPUT q4-intcov_dtoe.tex
 INPUT q4-intcov_dtoe.tex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT q4-totalcf.tex
+INPUT q4-totalcf.tex
 INPUT FIN521_Case4.aux
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
