@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1523050408 "FIN521_HW3.tex" "FIN521_HW3.pdf" "FIN521_HW3" 1523050409
+["pdflatex"] 1523051984 "FIN521_HW3.tex" "FIN521_HW3.pdf" "FIN521_HW3" 1523051985
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -61,8 +61,8 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1501873392 2377259 0b502a1d0ea6311856ea52c789c6d193 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1501873427 4130343 a17768e1edfe09132e910d781ca3d284 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "FIN521_HW3.aux" 1523050409 546 e988fbb046904ff783375b288b10e38d ""
-  "FIN521_HW3.tex" 1523050408 10115 7b7c48acfac5f6af026cbed7d5569b8e ""
+  "FIN521_HW3.aux" 1523051985 546 5723e265a1e591fcfe7176c9b3904ca6 ""
+  "FIN521_HW3.tex" 1523051983 11013 56aba770e8cfe0357e0f6aee42202dd2 ""
   (generated)
   "FIN521_HW3.pdf"
   "FIN521_HW3.aux"
