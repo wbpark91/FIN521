@@ -167,7 +167,13 @@
 %	Question 2
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-
+    PE funds are more likely to buy DPC rather than strategic buyer.
+    From the case, PE funds look for mature firms which do not require large
+    capital expenditures or R\&D. Strategic firms wants to acquire firm which
+    can make synergy with their original business. Considering industrial
+    background and current status of DPC, PE funds are more likely to buy DPC
+    because the industry is in steady state, therefore DPC does not need
+    substantial capital or R\&D to expand their business.
 \end{homeworkProblem}
 
 %----------------------------------------------------------------------------------------
@@ -200,7 +206,26 @@
         terminal value increases from 6,207 to 7,032, therefore enterprise value
         increases to 5,345.
         \item   %% d)
+        At first, the firm raises debt at $7.0 \times 372 = 2,604$ amount.
+        Since the firm uses all available cash to pay down debt, the amount of
+        free cash flow to equity will be zero because cash will be paid down
+        debt, and therefore amount of debt and interest expense will decrease.
+        If the firm raises debt, there will be interest tax shield, therefore
+        enterprise value will be increased by the amount of tax shield.
+        The amount of interest tax shield is 147(discounted at cost of debt),
+        therefore enterprise value will be increased to 5,491.
+        Table \ref{tab:prob4-is} and table \ref{tab:prob4-apv} shows the result of
+        valuation after change variables. The underlined value is changed value.
+        \input{prob4_is.tex}
+        \input{prob4_apv.tex}
         \item   %% e)
+        Table \ref{tab:prob4-changes} shows changes in enterprise value by
+        changing metrics. It shows that enterprise value increases most after
+        changing EBIT margin: 744, and the second largest driver was
+        EBITDA multiple, which increases enterprise value by 485.
+        Therefore, we can conclude that the key driver for increasing
+        enterprise value is growth in EBITDA.
+        \input{driver.tex}
     \end{enumerate}
 \end{homeworkProblem}
 
@@ -208,7 +233,11 @@
 %	Question 5
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-
+    If the buyers do not change anything, they will get zero return
+    because enterprise value of the firm will never change,
+    therefore they cannot get any positive return from the firm value.
+    Furthremore since buyers do not use leverage, they don't have to pay
+    any interest, therefore their return will be zero.
 \end{homeworkProblem}
 
 %----------------------------------------------------------------------------------------
@@ -217,10 +246,53 @@
 \begin{homeworkProblem}
     \begin{enumerate}[a)]
         \item   %% a)
+        From question 5-d, the PE fund raises debt by 2,604 million dollars.
+        Therefore, if it buys DPC of 4.5 billion dollars, the amount of equity
+        required is $4,500 - 2,604 = 1,896$ million dollars.
         \item   %% b)
+        Since the firm uses all available cash to pay down debt, we assumed that
+        there is no dividend paid out from 2012 to 2016.
+        Assuming this, enterprise value at 2016 is calcualated as 7,032,
+        which includes terminal value of free cash flows, and there is 1,481
+        amount of remaining debt, and 75 amount of after tax expense. Therefore,
+        cash flow for calculating IRR is $7,032 - 1,481 - 75 = 5,476$.
+        Since there is 1,896 amount of equity investment at initial period and
+        no intermediate cash flows, IRR is calculated as about 24\%.
         \item   %% c)
+        Assuming the amount of debt is same as 2,604 million dollars, and set
+        IRR at fixed amount of 20\%, we calculated maximum enterprise value
+        by using Excel Goal Seek function. From the result, the maximum amount
+        of available payment is about 2,200.23 million dollars, therefore adding
+        up with the amount of debt, maximum enterprise value of the firm is
+        calculated as $2,604 + 2,200.23 = 4,804.22$.
         \item   %% d)
+        By changing the amount of debt from $EBITDA \times i$, where $i = 1, 2, 3
+        \dots 10$, we calculated IRR, and Figure \ref{fig:irr} shows the
+        relationship between IRR and the amount of equity invested.
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[scale = 0.6]{irr.png}
+            \caption{IRR against the amount of equity invested}
+            \label{fig:irr}
+        \end{figure}
+        From the plot, we can discover that IRR decreases as the amount of
+        equity invested increases. It justifies the needs of debt financing
+        when acquiring a firm.
+        Furthermore, assuming PE firm cannot use leverage, we calculated maximum
+        enterprise value a fund can pay for remaining IRR as 20\% using the same
+        method in c). It was calculated as 3,831.675, which is lower than result
+        from c). It also justifies needs for debt financing.
         \item   %% e)
+        There is some advantages using debt for buying firms.
+        First, it can reduce costs of capital benefiting from interest tax shield.
+        Second, it can raise opportunities of acquiring large firm with fixed
+        IRR. From c), and d), we discovered that the maximum enterprise value
+        the firm can pay for increases when using debt.
+        However, there is also some disadvantages for using debt.
+        The major disadvantage is increase in cost of equity, which increases
+        risk of the investment including failure to paying out debt.
+        Another disadvantage is proportion of ownership. If the firm uses debt
+        their proportion of ownership will decrease.
     \end{enumerate}
 \end{homeworkProblem}
 
@@ -228,6 +300,12 @@
 %	Question 7
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}
-
+    DuPont sold DPC to Carlyle, which is one of the private equity's top investors.
+    The selling price was \$4.9 billion, and after purchase, EBITDA
+    increased by about 20\%. Consequently net income increased
+    about 3.2\%. From the newpaper article at 2016, its enterprise value
+    increased to 9.6 billion dollars. Carlyle finally shed its stake at 2016,
+    and its annualized total return from its investor is 80\%. It cleared
+    its position by 6 ways, including IPO and Berkshire Hathaway deal.
 \end{homeworkProblem}
 \end{document}
