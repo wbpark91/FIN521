@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1524706050 "FIN521_HW4.tex" "FIN521_HW4.pdf" "FIN521_HW4" 1524706050
+["pdflatex"] 1525472611 "FIN521_HW4.tex" "FIN521_HW4.pdf" "FIN521_HW4" 1525472612
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -17,8 +17,12 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1463608860 7612 729a8cc22a1ee0029997c7f74717ae05 ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1463608860 7324 2310d1247db0114eb4726807c8837a0e ""
@@ -56,9 +60,9 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1490340647 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1490340673 3873397 d0f77ec6992ef97dcf3339c036b59d58 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "FIN521_HW4.aux" 1524706050 546 414d1d91b9fbd4f498dc33324208b474 ""
-  "FIN521_HW4.tex" 1524706047 8471 be2081eb185cc5e848a5f2680a7d3c5b ""
+  "FIN521_HW4.aux" 1525472612 546 5723e265a1e591fcfe7176c9b3904ca6 ""
+  "FIN521_HW4.tex" 1525472610 10687 d5867673ebcb6917ced5e1c507d2f6f6 ""
   (generated)
   "FIN521_HW4.pdf"
-  "FIN521_HW4.aux"
   "FIN521_HW4.log"
+  "FIN521_HW4.aux"
